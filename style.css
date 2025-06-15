@@ -1,0 +1,86 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #003366;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    border-bottom: 4px solid orange;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background: #002244;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background: orange;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+h1, h2 {
+    font-family: 'Georgia', serif;
+}
+
+.highlight {
+    padding: 20px;
+    background: #fff8e1;
+    border-left: 5px solid #ffa000;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+#missions, #gallery, #about {
+    padding: 20px;
+    background: white;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.gallery {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #002244;
+    color: white;
+}
